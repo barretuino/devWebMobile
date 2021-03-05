@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <title>Cadastro de Contatos Exemplo</title>
+    <meta charset="utf-8"/>
+    <link rel="stylesheet" type="text/css" href="./style/estilo.css">
+</head>
+<body>
+    <form class="formulario" method="post" action="./cadastroSvl"> 
+        <p> Envie uma mensagem preenchendo o formulário abaixo</p>
+        
+        <div class="field">
+            <label for="nome">Seu Nome:</label>
+            <input type="text" id="nome" name="nome" placeholder="Digite seu nome*" required>
+        </div>
+        
+        <div>
+        	<label for="data">Data do Contato</label>
+        	<input type="date" id="data" name="data" placeholder="Selecione a data">
+        </div>
+        
+        <div class="field">
+            <label for="telefone">Seu Telefone:</label>
+            <input type="text" id="telefone" name="telefone" placeholder="Digite seu Telefone">
+        </div>
+
+        <div class="field">
+            <label for="email">Seu E-Mail:</label>
+            <input type="email" id="email" name="email" placeholder="Digite seu E-Mail*" required>
+        </div>        
+        <div class="field radiobox">
+            <span>Deseja receber nossas novidades?</span>
+            <input type="radio" name="novidades" id="sim" value="sim" checked><label for="sim">Sim</label>
+            <input type="radio" name="novidades" id="nao" value="nao"><label for="nao">Não</label>
+        </div>
+        <div class="field">
+            <label for="mensagem">Sua mensagem:</label>
+            <textarea name="mensagem" id="mensagem" placeholder="Mensagem*" required></textarea>
+        </div>
+
+        <input type="submit" class="button" name="acao" value="Enviar">
+        <input type="reset" class="button" name="acao" value="Limpar" >
+    </form>
+    
+    <table>
+  <tr>
+    <th>Firstname</th>
+    <th>Lastname</th>
+    <th>Savings</th>
+  </tr>
+  <tr>
+    <td>Peter</td>
+    <td>Griffin</td>
+    <td>$100</td>
+  </tr>
+  <tr>
+    <td>Lois</td>
+    <td>Griffin</td>
+    <td>$150</td>
+  </tr>
+  <tr>
+    <td>Joe</td>
+    <td>Swanson</td>
+    <td>$300</td>
+  </tr>
+  <tr>
+    <td>Cleveland</td>
+    <td>Brown</td>
+    <td>$250</td>
+  </tr>
+</table>
+</body>
+</html>

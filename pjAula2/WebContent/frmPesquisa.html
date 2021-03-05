@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <title>Pesquisa de Clientes</title>
+    <meta charset="utf-8"/>
+    <link rel="stylesheet" type="text/css" href="./style/estilo.css">
+</head>
+<body>
+    <form class="formulario" method="post" action="./cadastroSvl"> 
+        <p> Sistema Pandora - Pesquisa de Clientes</p>
+        
+        <div class="field">
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" name="nome" placeholder="Digite seu nome*" required>
+        </div>
+        
+        <div>
+        	<label for="data">Data de Cadastro</label>
+        	<input type="date" id="data" name="data" placeholder="Selecione a data">
+        </div>
+        
+        <div class="field">
+            <label for="email">E-Mail:</label>
+            <input type="email" id="email" name="email" placeholder="Digite seu E-Mail*" required>
+        </div>        
+        <div class="field">
+            <label for="mensagem">Departamento:</label>
+            <input type="text" name="departamento" id="departamento">
+        </div>
+
+        <input type="submit" class="button" name="acao" value="Enviar">
+        <input type="reset" class="button" name="acao" value="Limpar" >
+    </form>
+</body>
+</html>
