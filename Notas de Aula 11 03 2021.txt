@@ -1,0 +1,9 @@
+Notas de Aula 11/03/2021
+
+- Front end - Apresentação (Interação com Usuário)
+
+- Back end - Camada de Regra (lógica por trás da Interface)
+
+- O que é a tal responsividade????
+   Um caracteristica que determina a capacidade de adapção e de
+   reajuste as porções e espaços de tela disponiveis para o usuário.

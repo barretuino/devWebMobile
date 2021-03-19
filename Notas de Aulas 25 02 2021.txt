@@ -1,0 +1,37 @@
+1 - Padrões de Desenvolvimento
+   M - Modelagem     Cliente
+   V - Visualização  frmCliente.java, cliente.js, cliente.xml
+   C - Controle      ClienteService
+   
+2 - Apache TomCat
+
+3 - Java para Web (J2EE)
+
+4 - Protocolos
+	A) Comunicação
+	B) Transmissão e de entrega
+
+5 - Padrões para a programação
+
+6 - RFC
+
+7 - Execução 
+	A) Parcialmente Client (JSP) Hibrido
+	B) Totalmente Client (HTML) onClient
+	C) Totalmente Server (Servlet) onServer
+
+8 - HTML
+	Frame - Formulário
+		POST - Envio de dados
+		GET - Retornar (Buscar) informações
+    	
+	Modelagem -> Livro
+	View -> FrmCadLivro.html
+	Controler -> cadLivro.java (.class)
+	
+	MVC
+
+
+
+
+
