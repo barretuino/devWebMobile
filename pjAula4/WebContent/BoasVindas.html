@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Clicar no botão</title>
+<script>
+	var mensage; //Para guardar o nome 
+	function load() {
+		mensage = prompt("Seu nome?");
+	}
+	function touch() {
+		alert(mensage);
+	}
+</script>
+</head>
+<body onload='load()'>
+	<input type="button" value="Clique aqui" onclick='touch()' />
+</body>
+</html>
