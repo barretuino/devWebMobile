@@ -1,0 +1,16 @@
+Notas de Aula de 18/03/2021
+
+Exemplos: http://localhost:9086/pjAula3/Funcoes.html
+
+V && V = V
+V && F = F
+F && F = F
+F && V = F
+Basta um falso para ser falso
+
+
+V || F = V
+F || F = F
+F || V = V
+V || V = V
+Basta um verdadeiro para ser verdadeiro
