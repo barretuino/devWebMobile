@@ -1,0 +1,29 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <title>Cadastro de Contato</title>
+    </head>
+    <body>
+
+        <form action="submissao.php" method="post">
+            Nome:  <input type="text" name="usuario" /><br />
+            Email: <input type="text" name="email" /><br />
+			Password: <input type="password" name="senha" /><br />
+			Masculino:<INPUT TYPE="radio" NAME="opcao" VALUE="M" Checked>
+			Feminino: <INPUT TYPE="radio" NAME="opcao" VALUE="F" > <br />	
+			Curso <br>
+			Java : <INPUT TYPE="Checkbox" NAME="linguagem" VALUE="1">
+			HTML :<INPUT TYPE="Checkbox" NAME="linguagem2" VALUE="2"> <br />
+			<Select Name ="cargo" size=3>
+				<Option>Programador Junior
+				<Option selected>Programador Senior
+				<Option>Programador Pleno
+			</Select>
+
+            <input type="submit" name="submit" value="Me aperte!" />
+        </form>
+
+    </body>
+</html>
+
+
