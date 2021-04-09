@@ -1,0 +1,70 @@
+﻿Notas de Aula 08/04/2021
+
+Banco de Dados --> Linguagem SQL
+	Estrutura de programação PHP que seja capaz de:
+	1. Pool Conexão / Estabelecimento de Conexão
+	2. Abertura da Conexão (Servidor, Dados de autenticação)
+	3. Instanciação de um objeto Query
+	4. Informar o comando SQL
+		4.1 Consulta (SELECT) ResultSet List<Object[]>
+		4.2 Inserções, Alterações e Remoções (INSERT, UPDATE e DELETE) T ou F
+	5. Close na conexão (devolve a conexão)
+
+
+********** Segundo Momento da Aula *********************
+Revisão do 1º Bimestre para Atividade Avaliativa
+
+1) Comunicação entre Cliente e Servidor - Protocolos e formas de funcionamento.
+	Estrutura tipica que nos encontramos em aplicações web é a de três camadas, sendo elas, client, Server e SGBD.
+	A comunicação mais comum, conhecida como Cliente Servidor, se dá por meio de um protocolo denominado HTTP (Comunicação)
+	A apresentação, que é como os dados são exibidos, apresentados é o HTML (linguagem).
+
+2) HTML - Abreviação para a expressão inglesa HyperText Markup Language, que significa: "Linguagem de Marcação de Hipertexto" é uma linguagem de estática usada em sistema WEB.
+	O conceito de tags (comandos) que descrevem um comportamento.
+
+3) Camadas de Front-end e Back-end
+	*Front-End: está o cliente e neste a execução on-client. Camada visual, que contempla a interação com o usuário. Em sistemas WEB estamos falando daquilo que é executado no navegador do usuário.
+	Exemplo: index.html e um cssPrincipal.css
+	
+	*Back-End: tudo que é executado de fundo (no servidor) on-server.
+	As regras de negócios e as ações que não podem, não devem ou não são suportadas pelo on-client, são realizadas.
+	Exemplo: svlCadastrar.class, cadastrar.php e etc...
+	
+4) CSS - BootStrap
+	O CSS ele define um folha de estilos ou que podemos definir com a formatação visual dos elementos. Pode ser incorporada diretamente no código HTML ou pode estar sendo salva em um estrutura de arquivo e invocada por meio do comando, por exemplo:
+	<link rel="stylesheet" type="text/css" href="style/style.css" /> 
+	* Por meio da construção de um css padronizar a o desenvolvimento front-end de suas páginas. Quando for preciso fazer a atualização está estará em um único local.
+	
+	Bootstrap oferece web design responsivo, é uma ferramenta composta por elementos HTML, CSS e Java Script. É considerado um pacote de CSS premium que contém muitos modelos prontos para serem utilizados. O principio base é de estilos como no CSS e isso implica em uma ação executada do lado on-client.
+
+5) Conceito de Responsividade
+	Baseado em interfaces que tenham a capacidade de se ajustar as disposições de área visual. Garantir que a parte do front-end se ajuste as dimensões e áreas a disposição.
+	
+	A responsividade está associada a questão de adaptar-se ou renderizar os elementos para que sejam comportados pelo dispositivo.
+
+6) Java Script (Prático)
+	O JS é uma linguagem estrutural executada no navegador do cliente, ou seja on-client, que permite que páginas estáticas possam responder de forma interativa a algumas funções.
+	
+	Exeções podem ser propagadas no console do navegador, gerando a incidencia de uma mensagem de erro.
+	
+	Nortea-se, assim como outras linguagens, nos principios de funções, variáveis, decisões e repetições.
+
+7) Principios de Orientação a Objetos
+	*Classe - Definem o Modelo conceito, é um exemplo de abstração ou de definição de algo que existe no mundo real, como cliente, e que desejamos representar computacionalmente.
+	*Métodos - São as ações, tais como as funções que existem na Programação estruturada.
+	*Atributos - descrevem propriedades, como por exemplo, informações a respeito da classe.
+
+8) Funcionalidades da Linguagem PHP 
+	Linguagem PHP é uma linguagem destinada a back-end, ou seja a descrevermos as ações que serão executadas do lado do servidor.
+	
+	Sustentado por um servidor de aplicação (hospeda) que processa as ações requisitadas a aplicação feita em PHP.
+	Uma transação consiste em:
+			Estabelecimento da conexão;
+			Requisição (pelo cliente);
+			Resposta (pelo servidor);
+			Fechamento da conexão.
+	
+9) Conectividade com o Banco de Dados MySQL
+	Que uma aplicação ela pode possuir elementos de persistência de dados.
+	O servidor WEB (back-end) retem os dados em uma estrutura, por exemplo do MySQL.
+
