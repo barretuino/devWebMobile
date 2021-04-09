@@ -1,0 +1,147 @@
+<HTML><HEAD><TITLE>.: Formulário de Contato :.</TITLE>
+<META http-equiv=Content-Type content="text/html; charset=iso-8859-1">
+<STYLE>.cellbox {
+	BORDER-RIGHT: #888888 1px solid; PADDING-RIGHT: 5px; BORDER-TOP: #888888 1px solid; PADDING-LEFT: 5px; PADDING-BOTTOM: 5px; BORDER-LEFT: #888888 1px solid; PADDING-TOP: 5px; BORDER-BOTTOM: #888888 1px solid
+}
+.box-header {
+	PADDING-RIGHT: 5px; PADDING-LEFT: 5px; PADDING-BOTTOM: 5px; PADDING-TOP: 5px
+}
+.frm {
+	BORDER-RIGHT: #888888 1px solid; BORDER-TOP: #888888 1px solid; FONT-WEIGHT: bold; FONT-SIZE: 8pt; BORDER-LEFT: #888888 1px solid; BORDER-BOTTOM: #888888 1px solid; FONT-FAMILY: Verdana; BACKGROUND-COLOR: #f0f0f0
+}
+.frm-on {
+	BORDER-RIGHT: rgb(70,90,128) 1px solid; BORDER-TOP: rgb(70,90,128) 1px solid; FONT-WEIGHT: bold; FONT-SIZE: 8pt; BORDER-LEFT: rgb(70,90,128) 1px solid; COLOR: rgb(70,90,128); BORDER-BOTTOM: rgb(70,90,128) 1px solid; FONT-FAMILY: Verdana; BACKGROUND-COLOR: rgb(177,203,255)
+}
+.text-header {
+	FONT-WEIGHT: bold; FONT-SIZE: 8pt; FONT-FAMILY: Verdana
+}
+.header {
+	FONT-WEIGHT: bold; FONT-SIZE: 16pt; COLOR: rgb(0,128,255); FONT-FAMILY: Verdana
+}
+</STYLE>
+
+<SCRIPT language=JavaScript>
+<!--
+function SymError()
+{
+  return true;
+}
+window.onerror = SymError;
+//-->
+    </SCRIPT>
+
+<SCRIPT>
+      function displayText( sText ) {
+        document.getElementById("displayArea").innerHTML = sText;
+      }
+    </SCRIPT>
+
+</HEAD>
+<BODY>
+<DIV align=center>
+<CENTER>
+<TABLE id=AutoNumber1 style="BORDER-COLLAPSE: collapse" borderColor=#111111 
+height=424 cellSpacing=0 cellPadding=0 width=507 border=1>
+  <TBODY>
+  <TR>
+    <TD width=507 bgColor=#000000 height=18>
+      <P style="MARGIN-TOP: 0px; MARGIN-BOTTOM: 0px" align=center><b><font face="Verdana" color="#ffffff" size="2">Formulário
+      de Contato</font></b></P></TD></TR>
+  <TR>
+    <TD align=justify width=507 height=402>
+      <P style="MARGIN-TOP: 0px; MARGIN-BOTTOM: 0px" align="center"><FONT face=Verdana 
+      size=1>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <B><FONT color=#ff0000>Preencha 
+      corretamente o formulário a baixo:</FONT></B></FONT></P>
+      <P style="MARGIN-TOP: 0px; MARGIN-BOTTOM: 0px"><FONT face=Verdana 
+      size=1></FONT>&nbsp;</P>
+      <P style="MARGIN-TOP: 0px; MARGIN-BOTTOM: 0px" align=center>
+      <FORM style="MARGIN: 0px; WORD-SPACING: 0px" name=form action=enviar.php
+      method=post>
+      <DIV align=center>
+      <CENTER>
+      <TABLE id=AutoNumber1 style="BORDER-COLLAPSE: collapse" 
+      borderColor=#111111 height=200 cellSpacing=0 cellPadding=0 width=328 
+      border=0>
+        <TBODY>
+        <TR>
+          <TD width=35 height=10>
+          </TD>
+          <TD width=287 height=10 align="center">
+            <P style="MARGIN-TOP: 0px; MARGIN-BOTTOM: 0px"><font face="Verdana" size="1"><b>Nome:</b></font></P></TD></TR>
+        <tr>
+          <TD width=35 height=12>
+          </TD>
+          <TD width=287 height=12 align="center">
+            <SPAN 
+            class=box-header><font face="Verdana" size="1"><b><INPUT class=frm 
+            onblur="this.className='frm'; displayText('&nbsp;');" 
+            onfocus="this.className='frm-on'; displayText('&nbsp;Digite seu Nome');" 
+            maxLength=60 size=25 name=nome></b></font></SPAN></TD>
+        </tr>
+        <tr>
+          <TD width=35 height=13>
+          </TD>
+          <TD width=287 height=13 align="center">
+            <SPAN 
+            class=box-header><font face="Verdana" size="1"><b>E-mail:</b></font></SPAN></TD>
+        </tr>
+        <TR>
+          <TD width=35 height=13>
+          </TD>
+          <TD width=287 height=13 align="center">
+            <P style="MARGIN-TOP: 0px; MARGIN-BOTTOM: 0px"><SPAN 
+            class=box-header><font face="Verdana" size="1"><b><INPUT class=frm 
+            onblur="this.className='frm'; displayText('&nbsp;');" 
+            onfocus="this.className='frm-on'; displayText('&nbsp;Digite seu e-mail, ex: user@user.com.br');" 
+            maxLength=100 size=25 name=email></b></font></SPAN></P></TD></TR>
+        <tr>
+          <TD width=35 height=12>
+          </TD>
+          <TD width=287 height=12 align="center">
+            <SPAN 
+            class=box-header><font face="Verdana" size="1"><b>Assunto:</b></font></SPAN></TD>
+        </tr>
+        <TR>
+          <TD width=35 height=18>
+          </TD>
+          <TD width=287 height=18 align="center">
+            <P style="MARGIN-TOP: 0px; MARGIN-BOTTOM: 0px"><SPAN 
+            class=box-header><font face="Verdana" size="1"><b><INPUT class=frm 
+            onblur="this.className='frm'; displayText('&nbsp;');" 
+            onfocus="this.className='frm-on'; displayText('&nbsp;Digite seu assunto');" 
+            maxLength=60 size=25 name=assunto></b></font></SPAN></P></TD></TR>
+        <tr>
+          <TD width=35 height=7>
+          </TD>
+          <TD width=287 height=7 align="center">
+            <SPAN 
+            class=box-header><font face="Verdana" size="1"><b>Mensagem:</b></font></SPAN></TD>
+        </tr>
+        <TR>
+          <TD width=35 height=34>
+          </TD>
+          <TD width=287 height=34 align="center">
+            <P style="MARGIN-TOP: 0px; MARGIN-BOTTOM: 0px"><FONT face=Verdana 
+            size=1><br><textarea class=frm 
+            onblur="this.className='frm'; displayText('&nbsp;');" 
+            onfocus="this.className='frm-on'; displayText('&nbsp;Digite sua mensagem');" 
+            name=mensagem rows="4" cols="25"></textarea></FONT></P></TD></TR>
+        <TR>
+          <TD width=35 height=9>
+            <P style="MARGIN-TOP: 0px; MARGIN-BOTTOM: 0px">&nbsp;</P></TD>
+          <TD width=287 height=9>
+            <P style="MARGIN-TOP: 0px; MARGIN-BOTTOM: 0px"><FONT face=Verdana 
+            size=1></FONT>&nbsp;</P></TD></TR>
+        <TR>
+          <TD width=328 colSpan=2 height=73>
+            <P style="MARGIN-TOP: 0px; MARGIN-BOTTOM: 0px" align=center><SPAN 
+            class=box-header>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <INPUT class=frm onmouseover="this.className='frm-on';" onmouseout="this.className='frm';" type=submit value=Enviar></SPAN><FONT 
+            face=Verdana> </FONT><SPAN class=box-header><INPUT class=frm onmouseover="this.className='frm-on';" onmouseout="this.className='frm';" type=reset value=Limpar></SPAN>
+            <P style="MARGIN-TOP: 0px; MARGIN-BOTTOM: 0px" align=center><SPAN 
+            class=box-header><FONT style="FONT-SIZE: 3pt" 
+            face=Verdana></FONT></SPAN>&nbsp;
+            <P style="MARGIN-TOP: 0px; MARGIN-BOTTOM: 0px" align=center>
+            <DIV class=frm-on 
+      id=displayArea>&nbsp;</DIV></TD></TR>
+        
+        </TBODY></TABLE></CENTER></DIV></FORM></TD></TR></TBODY></TABLE></CENTER></DIV></BODY></HTML>
