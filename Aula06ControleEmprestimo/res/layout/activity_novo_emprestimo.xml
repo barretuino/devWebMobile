@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/categoria"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Categoria" />
+
+    <Spinner
+        android:id="@+id/ne_catg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/descricao"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Descrição" />
+
+    <EditText
+        android:id="@+id/ne_desc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10" >
+
+        <requestFocus />
+    </EditText>
+    
+    <TextView
+        android:id="@+id/contato"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Contato" />
+    
+    <Spinner
+        android:id="@+id/ne_nome"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+     <TextView
+        android:id="@+id/data"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Data" />
+
+     <EditText
+         android:id="@+id/ne_data"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:ems="10"
+         android:inputType="date" />
+
+     <LinearLayout
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:orientation="horizontal" >
+
+         <Button
+             android:id="@+id/btnCancelClick"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:text="Cancelar" />
+
+         <Button
+             android:id="@+id/btnOkClick"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:text="Inserir" />
+
+     </LinearLayout>
+
+</LinearLayout>
